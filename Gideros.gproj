@@ -1,0 +1,16 @@
+<project>
+ <properties autorotation="0" fps="60" scaleMode="0" iosDevice="1" xcodeVersion="0" packageName="com.yourdomain.GiderosExample" logicalHeight="480" logicalWidth="320" retinaDisplay="0" assetsOnly="0" orientation="0" architecture="1">
+  <imageScales/>
+ </properties>
+ <file file="resources/PhysicsData.lua"/>
+ <file file="resources/floor.png"/>
+ <file file="resources/orange.png"/>
+ <file file="resources/icecream3.png"/>
+ <file file="resources/icecream2.png"/>
+ <file file="resources/icecream.png"/>
+ <file file="resources/hotdog.png"/>
+ <file file="resources/hamburger.png"/>
+ <file file="resources/drink.png"/>
+ <file file="main.lua"/>
+ <dependency from="main.lua" to="resources/PhysicsData.lua"/>
+</project>
